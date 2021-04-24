@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.springboot.junit5.assertions.AssertionsTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.springboot.junit5.assertions.AssertionsTest
+whenFailingATest_thenFailed  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: FAIL - test not completed
+	at com.springboot.junit5.assertions.AssertionsTest.whenFailingATest_thenFailed(AssertionsTest.java:95)
+

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.springboot.junit5.testfactoryanddynamic.DynamicTestFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.springboot.junit5.testfactoryanddynamic.DynamicTestFactoryTest
+test_Devide  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <125>
+	at com.springboot.junit5.testfactoryanddynamic.DynamicTestFactoryTest.test_Devide(DynamicTestFactoryTest.java:39)
+
+dynamicTestsFromCollection[2]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <125>
+	at com.springboot.junit5.testfactoryanddynamic.DynamicTestFactoryTest.lambda$dynamicTestsFromCollection$1(DynamicTestFactoryTest.java:33)
+
